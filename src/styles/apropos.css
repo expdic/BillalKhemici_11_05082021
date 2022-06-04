@@ -1,0 +1,238 @@
+.aboutImg > img {
+    width: 1350px;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: revert;
+    filter: brightness(0.6);
+    margin-left: 1rem;
+    margin-top: 2rem;
+
+}
+
+.fiabilite > p {
+
+  background: #FF6060;
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-top: 2rem;
+  margin-left: 8rem;
+  margin-right: 16rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.fiabilite > p > img {
+  width: 15px;
+  height: 30px;
+  transform: rotate(270deg);
+  transition: all 0.35s;
+}
+
+.fiabilite > div {
+  background: #F6F6F6;
+  color: #FF6060;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-left: 8rem;
+  margin-right: 16rem;
+
+
+
+
+}
+
+
+.respect > p {
+
+  background: #FF6060;
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-top: 2rem;
+  margin-left: 8rem;
+  margin-right: 16rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.respect > p > img {
+  width: 15px;
+  height: 30px;
+  transform: rotate(270deg);
+  transition: all 0.35s;
+}
+
+.respect > div {
+  background: #F6F6F6;
+  color: #FF6060;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-left: 8rem;
+  margin-right: 16rem;
+
+
+
+}
+
+.service > p {
+
+  background: #FF6060;
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-top: 2rem;
+  margin-left: 8rem;
+  margin-right: 16rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.service > p > img {
+  width: 15px;
+  height: 30px;
+  transform: rotate(270deg);
+  transition: all 0.35s;
+}
+
+.service > div {
+  background: #F6F6F6;
+  color: #FF6060;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-left: 8rem;
+  margin-right: 16rem;
+
+
+
+}
+
+.responsabilite> p {
+
+  background: #FF6060;
+  color: white;
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-top: 2rem;
+  margin-left: 8rem;
+  margin-right: 16rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.responsabilite> p > img {
+  width: 15px;
+  height: 30px;
+  transform: rotate(270deg);
+  transition: all 0.35s;
+}
+
+.responsabilite > div {
+  background: #F6F6F6;
+  color: #FF6060;
+  font-size: 30px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-left: 8rem;
+  margin-right: 16rem;
+
+
+
+}
+
+
+@media screen and (max-width: 813px) { 
+  .aboutImg > img {
+    min-height: 150px;
+    max-width: 350px;
+    border-radius: 20px;
+    filter: brightness(0.6);
+    margin-top: 0.5rem;
+
+}
+  .fiabilite > p, .respect>p , .service>p , .responsabilite>p {
+
+  font-size: 20px;
+  min-width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
+.fiabilite > p > img, .respect>p>img , .service>p>img , .responsabilite>p>img {
+  width: 10px;
+  height: 20px;
+  transform: rotate(270deg);
+  transition: all 0.35s;
+  margin-right: -1rem;
+}
+
+.fiabilite > div, .respect>div , .service>div , .responsabilite>div {
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-left: 0.5rem;
+  padding-right: 2rem;
+  margin: 0px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+
+
+
+}
+
+
+
+}

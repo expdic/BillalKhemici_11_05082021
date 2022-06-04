@@ -1,0 +1,86 @@
+.gallerie {
+    overflow: hidden;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 1300px;
+
+}
+
+.gallerieDiv {
+    display: flex;
+    transition: transform .5s ease;
+}
+
+.gallerieImg {
+    flex-shrink: 0;
+    object-fit: cover;
+    display: block;
+    width: 1300px;
+    height: 600px;
+
+    
+}
+
+.gallerieChevron {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    width: calc(100% - 30px);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.chevron {
+    width: 30px !important;
+    height: auto !important;
+}
+
+.chevronD {
+    width: 30px !important;
+    height: auto !important;
+    transform: rotate(180deg);
+}
+
+.index {
+    position: absolute;
+    color: white;
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 813px) { 
+    .gallerie{
+        width: 350px;
+        height: 300px;
+        margin-left: -0.5rem;
+        margin-top: 0.5rem;
+        border-radius: 15px;
+    }
+
+    .gallerieImg {
+    flex-shrink: 0;
+    object-fit: cover;
+    display: block;
+    width: 350px;
+    height: 300px;
+
+    
+    
+}
+
+.chevron {
+    width: 20px !important;
+
+}
+
+.chevronD {
+    width: 20px !important
+}
+
+}

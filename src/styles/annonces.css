@@ -1,0 +1,342 @@
+.logementsMain {
+    margin-left: 2rem;
+}
+
+
+.logementsMain > section > article {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    color: #FF6060;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logementsMain > section > article > h2 {
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.logementsMain > section > article > h3 {
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 0em;
+    margin-bottom: 0.7em;
+}
+
+.noteEtHost {
+    margin-top: -9rem;
+    align-items: center;
+    text-align: end;
+}
+
+.noteDiv {
+    margin-top: 3rem;
+    position: relative;
+    right: 140px;
+}
+
+.noteDiv > span {
+    margin-right: 8px;
+}
+.noteDiv > span > img {
+    margin-right: 1px;
+    width: 25px;
+}
+.gray {
+    filter: grayscale(1);
+    opacity: 0.25;
+}
+.hostDiv {
+    display: flex;
+    align-items: center;
+    text-align: end;
+    position: relative;
+    left: 1170px;
+}
+.hostDiv > span {
+    margin-right: 0.8em;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hostDiv> img {
+    width: 64px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+.tag {
+    margin-bottom: 1em;
+    background: #FF6060;
+    border-radius: 5px;
+    margin-right: 1em;
+    color: white;
+    font-size: 17px;
+    margin-top: 3px;
+    margin-bottom: 0.5em;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 4.5px;
+    padding-top: 4.5px;
+    display: inline-table;
+    text-align: center;
+}
+
+.DesEtEqu{
+    display: flex;
+}
+
+.Description > p {
+
+  background: #FF6060;
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  font-family: "Montserrat", sans-serif;
+  width: 550px;
+
+}
+
+.Description > p > img {
+  width: 15px;
+  height: 30px;
+  transform: rotate(270deg);
+  transition: all 0.35s;
+}
+
+.Description > div {
+  background: #F6F6F6;
+  color: #FF6060;
+  font-size: 25px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: -1.5rem;
+  padding-top: 1rem;
+  width: 550px;
+
+
+
+
+
+
+}
+
+
+.Equipement> p {
+
+  background: #FF6060;
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-top: 2rem;
+  margin-right: 16rem;
+  font-family: "Montserrat", sans-serif;
+  width: 550px;
+}
+
+.Equipement > p > img {
+  width: 15px;
+  height: 30px;
+  transform: rotate(270deg);
+  transition: all 0.35s;
+}
+
+.Equipement > div {
+  background: #F6F6F6;
+  color: #FF6060;
+  font-size: 25px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 0 0 5px 5px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+  width: 550px;
+  flex-direction: column;
+
+
+
+
+
+
+}
+
+.Equipement > div > span {
+    white-space: nowrap;
+    margin-bottom: 0.8rem;
+}
+
+
+@media screen and (max-width: 813px) {
+
+
+.logementsMain > section > article {
+    margin-top: 1em;
+}
+
+.logementsMain > section > article > h2 {
+    font-size: 30px;
+    margin-bottom: 0.5em;
+    margin-top: 0em;
+}
+
+.logementsMain > section > article > h3 {
+    font-size: 15px;
+    margin-top: 0em;
+}
+
+.noteEtHost {
+    margin-top: -5rem;
+}
+
+.noteDiv {
+    margin-top: -2rem;
+    right: 220px;
+}
+
+.noteDiv > span {
+    margin-right: 5px;
+}
+.noteDiv > span > img {
+    margin-right: 1px;
+    width: 20px;
+}
+
+.hostDiv {
+    left: 210px;
+    margin-top: 6rem;
+}
+.hostDiv > span {
+    margin-right: 0.8em;
+    font-size: 15px;
+}
+.hostDiv> img {
+    width: 44px;
+}
+
+.tag {
+    margin-bottom: 1em;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 0.5em;
+}
+
+.DesEtEqu{
+    display: flex;
+    flex-direction: column;
+}
+
+.Description > p {
+  font-size: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  margin-top: 2rem;
+  margin-right: 5rem;
+  width: 290px;
+
+}
+
+.Description > p > img {
+  width: 10px;
+  height: 20px;
+  transform: rotate(270deg);
+  transition: all 0.35s;
+  margin-right: -1rem;
+}
+
+.Description > div {
+  font-size: 19px;
+  padding-bottom: 10px;
+  padding-left: 0.3rem;
+  padding-right: 2rem;
+  margin-top: -1.1rem;
+  padding-top: 1rem;
+  width: 301px;
+
+
+
+
+
+
+}
+
+
+.Equipement> p {
+
+  background: #FF6060;
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px;
+  margin-top: 2rem;
+  margin-right: 16rem;
+  font-family: "Montserrat", sans-serif;
+  width: 550px;
+}
+
+.Equipement > p {
+  font-size: 19px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  width: 290px;
+
+}
+
+.Equipement > p > img {
+  width: 10px;
+  height: 20px;
+  transform: rotate(270deg);
+  transition: all 0.35s;
+  margin-right: -1rem;
+}
+
+.Equipement > div {
+  font-size: 19px;
+  padding-bottom: 10px;
+  padding-left: 0.3rem;
+  padding-right: 2rem;
+  margin-top: 0rem;
+  padding-top: 1rem;
+  width: 301px;
+
+
+
+
+
+
+} }
