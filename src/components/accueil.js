@@ -31,7 +31,7 @@ class Home extends Component {
                     </article>
 
                     <div>
-                        {this.state.annonces.map(annonce => (<article className="annonces">
+                        {this.state.annonces.map(annonce => (<article key ={annonce.id} className="annonces">
                             <Link to={{
                                     pathname: "/annonce",
                                     search: `?id=${annonce.id}`}}>
