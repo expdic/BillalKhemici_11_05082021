@@ -38,11 +38,11 @@ class Annonces extends Component {
         if (parseInt(note) === 1) {
             return (
                 <div className="noteDiv">        
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="gray"></img></span>
-                                <span><img src={ star } alt="star" className="gray"></img></span>
-                                <span><img src={ star } alt="star" className="gray"></img></span>
-                                <span><img src={ star } alt="star" className="gray"></img></span>
+                                <span><img src={ star } alt="star1" className="red"></img></span>
+                                <span><img src={ star } alt="star2" className="gray"></img></span>
+                                <span><img src={ star } alt="star3" className="gray"></img></span>
+                                <span><img src={ star } alt="star4" className="gray"></img></span>
+                                <span><img src={ star } alt="star5" className="gray"></img></span>
                             </div>
             )
         }
@@ -50,11 +50,11 @@ class Annonces extends Component {
         else if (parseInt(note) === 2) {
             return (
                 <div className="noteDiv">        
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="gray"></img></span>
-                                <span><img src={ star } alt="star" className="gray"></img></span>
-                                <span><img src={ star } alt="star" className="gray"></img></span>
-                                <span><img src={ star } alt="star" className="gray"></img></span>
+                                <span><img src={ star } alt="star1" className="red"></img></span>
+                                <span><img src={ star } alt="star2" className="gray"></img></span>
+                                <span><img src={ star } alt="star3" className="gray"></img></span>
+                                <span><img src={ star } alt="star4" className="gray"></img></span>
+                                <span><img src={ star } alt="star5" className="gray"></img></span>
                             </div>
             )
         }
@@ -62,11 +62,11 @@ class Annonces extends Component {
         else if (parseInt(note) === 3) {
             return (
                 <div className="noteDiv">        
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="gray"></img></span>
-                                <span><img src={ star } alt="star" className="gray"></img></span>
+                                <span><img src={ star } alt="star1" className="red"></img></span>
+                                <span><img src={ star } alt="star2" className="red"></img></span>
+                                <span><img src={ star } alt="star3" className="red"></img></span>
+                                <span><img src={ star } alt="star4" className="gray"></img></span>
+                                <span><img src={ star } alt="star5" className="gray"></img></span>
                             </div>
             )
         }
@@ -74,11 +74,11 @@ class Annonces extends Component {
         else if (parseInt(note) === 4) {
             return (
                 <div className="noteDiv">        
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="gray"></img></span>
+                                <span><img src={ star } alt="star1" className="red"></img></span>
+                                <span><img src={ star } alt="star2" className="red"></img></span>
+                                <span><img src={ star } alt="star3" className="red"></img></span>
+                                <span><img src={ star } alt="star4" className="red"></img></span>
+                                <span><img src={ star } alt="star5" className="gray"></img></span>
                             </div>
             )
         }
@@ -86,11 +86,11 @@ class Annonces extends Component {
         else if (parseInt(note) === 5) {
             return (
                 <div className="noteDiv">        
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="red"></img></span>
-                                <span><img src={ star } alt="star" className="red"></img></span>
+                                <span><img src={ star } alt="star1" className="red"></img></span>
+                                <span><img src={ star } alt="star2" className="red"></img></span>
+                                <span><img src={ star } alt="star3" className="red"></img></span>
+                                <span><img src={ star } alt="star4" className="red"></img></span>
+                                <span><img src={ star } alt="star5" className="red"></img></span>
                             </div>
             )
         }

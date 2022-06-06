@@ -2,6 +2,10 @@
 .tout {
     margin-left: 8rem;
     margin-right: 6rem;
+  
+    height: 100%;
+    overflow: hidden
+
 }
 
 .homeMain {
@@ -110,18 +114,21 @@
 
 .homeMain > section > article > h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   color: white;
   margin-left: 1em;
-  margin-top: 2em;
+  margin-top: 1.2em;
   white-space: normal;
+  display: flex;
+  flex-direction: column;
+
 
 
 }
 
-.homeMain > section > article > span {
+.homeMain > section > article > h2 > span:nth-child(1) {
 
-  display: block;
+  margin-left: -6rem;
 
 }
 

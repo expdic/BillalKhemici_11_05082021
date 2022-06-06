@@ -26,7 +26,7 @@ class Home extends Component {
                     <article>
                         <img src={imgHome} alt='home'/>
                         <h2>
-                            Chez vous,<span>partout et ailleurs</span>
+                            <span>Chez vous,</span><span>partout et ailleurs</span>
                         </h2>
                     </article>
 

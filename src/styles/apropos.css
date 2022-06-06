@@ -189,12 +189,16 @@
 
 
 @media screen and (max-width: 813px) { 
+
   .aboutImg > img {
-    min-height: 150px;
-    max-width: 350px;
+    width: 350px;
+    height: 200px;
     border-radius: 20px;
+    object-fit: cover;
     filter: brightness(0.6);
-    margin-top: 0.5rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    object-position: left;
 
 }
   .fiabilite > p, .respect>p , .service>p , .responsabilite>p {
